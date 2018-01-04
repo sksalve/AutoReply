@@ -170,11 +170,10 @@ Yours truly,\n\nUnion Mutual Fund"""
                     server.sendmail(email_user, [email_send, cc_list], text)
                 except Exception as MailError:
                     logger.error(MailError, exc_info = True)
-                shutil.move(XML.xml, XML.Archive)
-                logger.debug("email repose sent to {}".format(data_f.email))
+                logger.debug("email repose sent to {}".format(data_f.email, cc_list))
                 server.quit()
         except Exception as ParseError:
             logger.error(ParseError, exc_info=True)
             
 
-XML.send_respose()
+XML.send_response()
