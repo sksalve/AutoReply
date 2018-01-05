@@ -133,8 +133,8 @@ class XML:
                 logger.info("Serial Number : {}".format(data_f.serial))
                 logger.info("Status : {}".format(data_f.status))
                 cc_list = ['sachinksalve90@outlook.com', 'sachinsalve90@outlook.com']
-                email_user = 'sachinksalve90@gmail.com'
-                email_password = 'kajal@123'
+                email_user = ''
+                email_password = ''
                 email_send = data_f.email
         
 
