@@ -113,8 +113,8 @@ def main():
                         if not Subject:
                             Subject = 'Auto Reply from UnionMF Fax'
                         cc_list = ['user1@gmail.com', 'user2@gmail.com']
-                        email_user = 'oceanfaxrincon@outlook.com'
-                        email_password = 'Rin_Fax123'
+                        email_user = ''
+                        email_password = ''
                         email_send = EmailID
 
                         msg = MIMEMultipart()
