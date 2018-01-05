@@ -9,8 +9,8 @@ FaxID= 255
 StampTime = '25Nov2017 12:45'
 EmailID = 'sachin.salve87@gmail.com'
 
-email_user = 'sachinsalve90@outlook.com'
-email_password = 'Newmoon@123'
+email_user = ''
+email_password = ''
 email_send = EmailID
 
 subject = 'Transaction Confirmation'
