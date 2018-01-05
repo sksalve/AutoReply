@@ -134,8 +134,8 @@ def main():
                             while True:
                             
                                 cc_list = ['sachins@rincon.co.in', 'priyam@rincon.co.in']
-                                email_user = 'support@rincon.co.in'
-                                email_password = 'rin_supp_123'
+                                email_user = ''
+                                email_password = ''
                                 email_send = EmailID
 
                                 msg = MIMEMultipart()

@@ -1,6 +1,24 @@
+<<<<<<< HEAD
 XMLs
 Retry
 Log
 Error
 Archive
 .idea
+=======
+.idea
+
+Archive
+
+Error
+
+Retry
+
+Script
+
+FaxInfo*
+
+__pycache__
+
+Log
+>>>>>>> b675a800cc06d20a0363186acf979e4e000d6b3f
