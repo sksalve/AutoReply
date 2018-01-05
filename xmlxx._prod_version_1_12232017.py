@@ -133,7 +133,7 @@ def main():
                             validxml = 0
                             while True:
                             
-                                cc_list = ['sachins@rincon.co.in', 'priyam@rincon.co.in']
+                                cc_list = ['sachins@rincon.co.in', 'sachinksalve90@gmail.com']
                                 email_user = ''
                                 email_password = ''
                                 email_send = EmailID
@@ -167,16 +167,16 @@ Yours truly,\n\nUnion Mutual Fund"""
                                 server.starttls()
                                 server.login(email_user, email_password)
 
-                                server.sendmail(email_user, [email_send, cc_list], text)
+                                server.sendmail(email_user, [email_send], text)
                                 server.quit()
 
                                 if True:
                                     shutil.move(XMLFile.split("\\")[-1], dst_path)
                                     logger.debug("XML %s is moved to Folder %s",
                                                  (XMLFile.split("\\")[-1]), (dst_path))
-                                    logger.debug("XML %s is successfully processed and sent to destination :%s",
-                                                 (XMLFile.split("\\")[-1]), (email_send, cc_list))
-                                    # logger.debug("XMLs process and sent to Destinations 'TO' : {}, 'CC': {}".format(email_send, [cc_list]))
+                                    # logger.debug("XML %s is successfully processed and sent to destination :%s",
+                                    #              (XMLFile.split("\\")[-1]), (email_send, cc_list))
+                                    logger.debug("XMLs process and sent to Destinations 'TO' : {}, 'CC': {}".format(email_send, cc_list))
                                     logger.debug("Processing next XML file")
 
                                 else:

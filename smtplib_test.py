@@ -7,14 +7,14 @@ from email import encoders
 
 FaxID= 255
 StampTime = '25Nov2017 12:45'
-EmailID = 'sachins@rincon.co.in'
+EmailID = 'sachin.salve87@gmail.com'
 
-email_user = ''
-email_password = ''
+email_user = 'sachinsalve90@outlook.com'
+email_password = 'Newmoon@123'
 email_send = EmailID
 
 subject = 'Transaction Confirmation'
-cc_list = ['sachin.salve87@gmail.com', 'sachins@rincon.co.in']
+cc_list = ['sachinksalve90@gmail.com', 'sachins@rincon.co.in']
 bcc_list = ''
 
 
@@ -39,11 +39,13 @@ part = MIMEBase('application','octet-stream')
 
 ##msg.attach(part)
 text = msg.as_string()
-server = smtplib.SMTP('smtp.gmail.com',587)
+server = smtplib.SMTP('smtp-mail.outlook.com',587)
 server.starttls()
 server.login(email_user,email_password)
 
+print("email procedure completed SUCCESS/ERROR")
 
-server.sendmail(email_user,email_send, text)
+
+server.sendmail(email_user,[email_send], text)
 # server.sendmail(email_user,email_send,  text)
 server.quit()
