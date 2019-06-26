@@ -1,13 +1,13 @@
 ""xmlwatcher.py: This script automatically send email acknoweldgements to investors email id by parsing xml files created through OceanFax server.."""
 
 __author__      = "Sachin Salve"
-__copyright__   = "Copyright 2018-19, Rincon India Solutions Pvt Ltd"
-__license__     = "RISPL"
+__copyright__   = ""
+__license__     = ""
 __version__     = "3.0.1"
 __maintainer__  = "Sachin Salve"
-__email__       = "support@rincon.co.in"
-__status__      = "Production"
-__company__     = "Aditya Birla Capital Mutual Fund AMC"
+__email__       = ""
+__status__      = "Poduction"
+__company__     = ""
 
 
 
